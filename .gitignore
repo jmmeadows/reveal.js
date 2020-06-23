@@ -10,3 +10,7 @@ tmp/**
 node_modules/
 .sass-cache
 dist/*.map
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
